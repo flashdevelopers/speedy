@@ -1,0 +1,946 @@
+﻿Log file open, 08/09/17 18:16:09
+LogInit:Display: Running engine for game: Speedy
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1237394848) SRandInit(-1237394848).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075995
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.09-09.16.10:110][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.09-09.16.10:110][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.09-09.16.10:136][  0]LogInit: Computer: DESKTOP-RM5SNBE
+[2017.08.09-09.16.10:136][  0]LogInit: User: user
+[2017.08.09-09.16.10:136][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.09-09.16.10:136][  0]LogInit: High frequency timer resolution =2.648437 MHz
+[2017.08.09-09.16.10:136][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.09-09.16.10:136][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.09-09.16.10:136][  0]LogMemory: Process Physical Memory: 273.71 MB used, 273.71 MB peak
+[2017.08.09-09.16.10:136][  0]LogMemory: Process Virtual Memory: 266.38 MB used, 266.38 MB peak
+[2017.08.09-09.16.10:136][  0]LogMemory: Physical Memory: 3167.47 MB used,  4911.47 MB free, 8078.94 MB total
+[2017.08.09-09.16.10:136][  0]LogMemory: Virtual Memory: 641.70 MB used,  4911.47 MB free, 134217728.00 MB total
+[2017.08.09-09.16.10:200][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.09-09.16.10:200][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.09-09.16.10:203][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.09-09.16.11:054][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.09-09.16.11:078][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2017.08.09-09.16.11:078][  0]LogD3D11RHI:       2019/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.09-09.16.11:086][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.08.09-09.16.11:086][  0]LogD3D11RHI:       128/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.09-09.16.11:087][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.09-09.16.11:087][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.09-09.16.11:087][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.09-09.16.11:092][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.09-09.16.11:092][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2017.08.09-09.16.11:092][  0]LogWindows: EnumDisplayDevices:
+[2017.08.09-09.16.11:092][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.08.09-09.16.11:092][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.09-09.16.11:093][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.08.09-09.16.11:093][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.08.09-09.16.11:093][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2017.08.09-09.16.11:093][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.08.09-09.16.11:093][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.08.09-09.16.11:093][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.09-09.16.11:108][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.09-09.16.11:124][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.09-09.16.11:125][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/Shaders/WorkingDirectory/6740/).
+[2017.08.09-09.16.11:125][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/62626CF94EA86672175B8086BCBC2A86/'.
+[2017.08.09-09.16.11:125][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.09-09.16.12:100][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.09-09.16.12:144][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.09-09.16.12:189][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.09-09.16.12:238][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.09-09.16.12:291][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.09-09.16.12:344][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.09-09.16.12:402][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.09-09.16.12:463][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.09-09.16.12:507][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.09-09.16.12:552][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.09-09.16.12:595][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.09-09.16.12:639][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.09-09.16.12:682][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.09-09.16.12:726][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.09-09.16.12:771][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.09-09.16.12:859][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.09-09.16.12:859][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.09-09.16.12:893][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.09-09.16.12:974][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.09-09.16.12:998][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.09-09.16.13:041][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.09-09.16.13:084][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.09-09.16.13:128][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.09-09.16.13:171][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.09-09.16.13:171][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.09-09.16.13:581][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.09-09.16.13:681][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.09-09.16.13:681][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.09-09.16.13:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/user/Documents/Unreal Projects/Speedy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.09-09.16.13:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.09-09.16.13:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/user/Documents/Unreal Projects/Speedy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.09-09.16.13:681][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.09-09.16.13:697][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.09-09.16.13:710][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.09-09.16.13:719][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.09-09.16.13:720][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.09-09.16.13:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.09-09.16.13:720][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.09-09.16.14:051][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.09-09.16.14:130][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.09-09.16.14:281][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.09-09.16.14:331][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.09-09.16.14:383][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.09-09.16.14:383][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.09-09.16.14:383][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.09-09.16.14:959][  0]LogNetVersion: Speedy , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 418536735)
+[2017.08.09-09.16.15:018][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.08.09-09.16.15:074][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.035884 seconds
+[2017.08.09-09.16.15:079][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.09-09.16.15:079][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.09-09.16.15:079][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.09-09.16.15:122][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.09-09.16.17:394][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.09-09.16.17:426][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.09-09.16.17:935][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.09-09.16.18:294][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.09-09.16.18:295][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.09-09.16.18:335][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.09-09.16.18:374][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.09-09.16.18:936][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.09-09.16.19:444][  0]LogEngine: Initializing Engine...
+[2017.08.09-09.16.19:444][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.09-09.16.19:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.09-09.16.19:667][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.09-09.16.19:815][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.09-09.16.19:826][  0]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.09-09.16.19:938][  0]LogInit: FAudioDevice initialized.
+[2017.08.09-09.16.19:986][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.09-09.16.19:998][  0]LogInit: Texture streaming: Enabled
+[2017.08.09-09.16.20:069][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.09-09.16.20:249][  0]LogInit: Transaction tracking system initialized
+[2017.08.09-09.16.20:506][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.09-09.16.21:272][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.09-09.16.21:843][  0]LogConsoleResponse:Display: 
+[2017.08.09-09.16.21:982][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.09-09.16.21:982][  0]LogCook:Display: Mobile HDR setting 0
+[2017.08.09-09.16.22:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/' took 0.02s
+[2017.08.09-09.16.22:842][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.09-09.16.22:842][  0]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.09-09.16.22:842][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.09-09.16.22:880][  0]MapCheck: New page: 맵 체크
+[2017.08.09-09.16.22:880][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.09-09.16.23:064][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.08.09-09.16.23:070][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.09-09.16.23:088][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.09-09.16.23:139][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 50.042ms.
+[2017.08.09-09.16.23:139][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.297
+[2017.08.09-09.16.23:208][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.09-09.16.23:295][  0]LogCollectionManager: Loaded 0 collections in 0.001029 seconds
+[2017.08.09-09.16.23:368][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Saved/Collections/' took 0.01s
+[2017.08.09-09.16.23:368][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Developers/user/Collections/' took 0.01s
+[2017.08.09-09.16.23:368][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Collections/' took 0.01s
+[2017.08.09-09.16.23:368][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.09-09.16.23:377][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2329 classes and 491 folders.
+[2017.08.09-09.16.23:431][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.09-09.16.23:471][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.09-09.16.23:510][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.09-09.16.23:544][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.09-09.16.23:551][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.09-09.16.23:555][  0]LogSlate: Took 0.003053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.09-09.16.23:556][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.09-09.16.23:560][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.09-09.16.23:655][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:1).
+[2017.08.09-09.16.23:789][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.09-09.16.23:849][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.09-09.16.23:849][  0]LogLoad: (Engine Initialization) Total time: 15.13 seconds
+[2017.08.09-09.16.23:849][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2017.08.09-09.16.23:849][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.09-09.16.23:877][  0]LogOcInput: OculusInput pre-init called
+[2017.08.09-09.16.23:877][  0]LogHMD: Starting GearVRController plugin
+[2017.08.09-09.16.23:891][  0]LogAssetRegistry: Asset discovery search completed in 8.8951 seconds
+[2017.08.09-09.16.23:894][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.09-09.16.23:894][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2017.08.09-09.16.23:895][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.09-09.16.23:937][  0]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.09-09.17.23:909][598]LogHttp:Warning: 000002C2B45B5C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.09-09.17.23:909][598]LogHttp:Warning: 000002C2B45B5C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.09-09.17.23:909][598]LogHttp:Warning: 000002C2B45B5C00: libcurl info message cache 1 (Closing connection 0)
+[2017.08.09-09.18.23:600][848]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.18.23:906][863]LogHttp:Warning: 000002C2EBF45480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.09-09.18.23:906][863]LogHttp:Warning: 000002C2EBF45480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.09-09.18.23:906][863]LogHttp:Warning: 000002C2EBF45480: libcurl info message cache 1 (Closing connection 1)
+[2017.08.09-09.18.43:842][895]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.09-09.18.51:466][349]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.18.54:778][545]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_27)
+[2017.08.09-09.18.55:887][609]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.18.57:281][690]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_27)
+[2017.08.09-09.18.58:359][752]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.19.00:402][872]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2017.08.09-09.19.02:600][967]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.19.03:148][997]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.19.15:843][754]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.09-09.19.15:922][754]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.09-09.19.25:437][184]LogHttp:Warning: 000002C288458B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.09-09.19.25:437][184]LogHttp:Warning: 000002C288458B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.09-09.19.25:437][184]LogHttp:Warning: 000002C288458B80: libcurl info message cache 1 (Closing connection 2)
+[2017.08.09-09.21.23:897][162]LogHttp:Warning: 000002C288402B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.09-09.21.23:897][162]LogHttp:Warning: 000002C288402B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.09-09.21.23:897][162]LogHttp:Warning: 000002C288402B00: libcurl info message cache 1 (Closing connection 3)
+[2017.08.09-09.22.51:684][385]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:701][386]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:718][387]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:734][388]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:751][389]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:768][390]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:784][391]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:801][392]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:818][393]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:834][394]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:851][395]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:867][396]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:884][397]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:901][398]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:918][399]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:934][400]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:951][401]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:968][402]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.51:984][403]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:001][404]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:018][405]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:034][406]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:051][407]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:068][408]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:084][409]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:101][410]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:118][411]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:135][412]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:151][413]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:168][414]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:185][415]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:201][416]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:218][417]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:235][418]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:284][421]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:301][422]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:318][423]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:335][424]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:351][425]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:368][426]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:385][427]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:401][428]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:418][429]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:435][430]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:451][431]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:468][432]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:485][433]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:502][434]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:518][435]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:535][436]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:552][437]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:568][438]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:585][439]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:602][440]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:619][441]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:635][442]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:652][443]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:669][444]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:685][445]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:702][446]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:718][447]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:735][448]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:752][449]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:769][450]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:785][451]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:802][452]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:818][453]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:902][458]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:918][459]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:935][460]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:952][461]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:968][462]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.52:985][463]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:002][464]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:018][465]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:035][466]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:051][467]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:068][468]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:085][469]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:103][470]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:118][471]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:135][472]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:218][477]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:235][478]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:252][479]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:269][480]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:285][481]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:302][482]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:318][483]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:335][484]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:352][485]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:368][486]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:385][487]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:401][488]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:419][489]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:435][490]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:452][491]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:469][492]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:485][493]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:502][494]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:518][495]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:535][496]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:552][497]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:568][498]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:585][499]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:602][500]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:618][501]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:635][502]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:652][503]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:668][504]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:685][505]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:701][506]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:718][507]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:735][508]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:752][509]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:768][510]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:785][511]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:802][512]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:818][513]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:835][514]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:851][515]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:868][516]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:885][517]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:902][518]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:918][519]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:935][520]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:952][521]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:969][522]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.53:985][523]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:002][524]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:018][525]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:035][526]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:051][527]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:068][528]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:085][529]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:102][530]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:118][531]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:135][532]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:151][533]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:168][534]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:185][535]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:202][536]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:219][537]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:235][538]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:252][539]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:268][540]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:285][541]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:301][542]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:318][543]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:335][544]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:352][545]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:368][546]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:385][547]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:402][548]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:418][549]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:435][550]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:452][551]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:468][552]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:485][553]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:502][554]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:518][555]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:535][556]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:552][557]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:568][558]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:585][559]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:602][560]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:618][561]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:635][562]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:652][563]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:668][564]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:685][565]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:701][566]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:718][567]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:735][568]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:752][569]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:768][570]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:785][571]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:802][572]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:818][573]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:835][574]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:852][575]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:868][576]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:885][577]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:902][578]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:918][579]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:935][580]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:952][581]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:968][582]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.54:985][583]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:002][584]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:018][585]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:035][586]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:068][587]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:068][587]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:069][587]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:081][587]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:092][588]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:108][589]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:125][590]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:142][591]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:158][592]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:175][593]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:192][594]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:209][595]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:225][596]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:242][597]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:258][598]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:275][599]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:292][600]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:308][601]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:325][602]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:342][603]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:359][604]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:375][605]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:392][606]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:408][607]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:425][608]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:442][609]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:458][610]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:475][611]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:492][612]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:508][613]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:525][614]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:542][615]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:559][616]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:575][617]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:592][618]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:608][619]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:625][620]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:642][621]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:658][622]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:675][623]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:692][624]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:708][625]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:725][626]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:742][627]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:759][628]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:775][629]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:792][630]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:808][631]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:825][632]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:842][633]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:858][634]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:875][635]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:892][636]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:908][637]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:925][638]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:942][639]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:959][640]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:976][641]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.55:992][642]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:008][643]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:025][644]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:042][645]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:058][646]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:075][647]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:092][648]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:109][649]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:125][650]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:142][651]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:159][652]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:175][653]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:192][654]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:208][655]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:225][656]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:242][657]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:258][658]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:275][659]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:291][660]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:309][661]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:325][662]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:342][663]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:359][664]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:375][665]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:392][666]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:409][667]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:425][668]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:442][669]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:458][670]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:475][671]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:492][672]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:509][673]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:525][674]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:542][675]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:558][676]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:575][677]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:592][678]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:608][679]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:625][680]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:642][681]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:658][682]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:675][683]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:692][684]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:709][685]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:725][686]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:742][687]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:758][688]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:775][689]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:792][690]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:808][691]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:825][692]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:842][693]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:859][694]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:875][695]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:892][696]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:909][697]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:925][698]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:942][699]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:958][700]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:975][701]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.56:996][702]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:008][703]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:025][704]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:042][705]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:059][706]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:075][707]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:092][708]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:108][709]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:125][710]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:142][711]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:159][712]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:175][713]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:192][714]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:208][715]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:225][716]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:342][723]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:359][724]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:375][725]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:392][726]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:409][727]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:426][728]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:442][729]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:459][730]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:475][731]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:492][732]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:509][733]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:525][734]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.22.57:592][738]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.04:687][161]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.04:687][161]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.04:721][161]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.09-09.23.05:461][205]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.05:461][205]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.05:478][205]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:480][205]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:497][206]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:514][207]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:530][208]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:547][209]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:564][210]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:580][211]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:597][212]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:613][213]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:630][214]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:647][215]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:664][216]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:680][217]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:697][218]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:714][219]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:730][220]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:747][221]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:764][222]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:780][223]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:797][224]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:813][225]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:830][226]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:847][227]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:864][228]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:880][229]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:897][230]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:914][231]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:930][232]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:947][233]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:964][234]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:980][235]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.05:997][236]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.06:013][237]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.06:031][238]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.06:047][239]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.06:064][240]LogPaper2D: Triangulation of poly failed.
+[2017.08.09-09.23.06:080][241]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.06:080][241]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.06:549][268]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.06:549][268]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.06:866][286]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.06:866][286]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.07:184][304]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.07:184][304]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.07:453][319]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.07:453][319]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.07:742][335]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.07:742][335]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.07:994][349]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.07:994][349]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.08:229][362]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.08:229][362]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.08:476][375]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.08:476][375]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.08:717][388]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.08:717][388]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.08:961][401]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.08:961][401]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.09:195][414]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.09:195][414]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.09:415][426]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.09:415][426]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.09:666][440]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.09:666][440]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.09:979][457]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.09:979][457]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.10:259][472]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.10:259][472]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.10:616][492]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.10:616][492]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.23:915][284]LogHttp:Warning: 000002C288401180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.09-09.23.23:915][284]LogHttp:Warning: 000002C288401180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.09-09.23.23:915][284]LogHttp:Warning: 000002C288401180: libcurl info message cache 1 (Closing connection 4)
+[2017.08.09-09.23.32:720][807]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.32:720][807]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.33:136][830]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.33:136][830]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.23.33:518][851]Cmd: TRANSACTION UNDO
+[2017.08.09-09.23.33:518][851]LogEditorTransaction: Undo Modification in Viewport
+[2017.08.09-09.25.09:478][727]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.08.09-09.25.10:745][848]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.25.11:505][888]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Ledge_26)
+[2017.08.09-09.25.22:780][958]LogSlate: Took 0.013406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.09-09.25.23:906][ 21]LogHttp:Warning: 000002C2F7E04700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.09-09.25.23:906][ 21]LogHttp:Warning: 000002C2F7E04700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.09-09.25.23:906][ 21]LogHttp:Warning: 000002C2F7E04700: libcurl info message cache 1 (Closing connection 5)
+[2017.08.09-09.26.14:849][264]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.09-09.26.15:039][265]Cmd: QUIT_EDITOR
+[2017.08.09-09.26.15:080][265]LogExit: Preparing to exit.
+[2017.08.09-09.26.15:861][265]LogExit: Editor shut down
+[2017.08.09-09.26.15:866][265]LogExit: Transaction tracking system shut down
+[2017.08.09-09.26.15:914][265]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.09-09.26.15:914][265]LogExit: Object subsystem successfully closed.
+[2017.08.09-09.26.15:936][265]LogD3D11RHI: Shutdown
+[2017.08.09-09.26.15:936][265]LogD3D11RHI: CleanupD3DDevice
+[2017.08.09-09.26.15:999][265]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.09-09.26.16:006][265]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.09-09.26.16:006][265]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.09-09.26.16:006][265]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.09-09.26.16:006][265]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.09-09.26.16:006][265]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.09-09.26.16:007][265]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.09-09.26.16:007][265]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.09-09.26.16:007][265]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.09-09.26.16:007][265]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Collections/' was aborted.
+[2017.08.09-09.26.16:007][265]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Developers/user/Collections/' was aborted.
+[2017.08.09-09.26.16:007][265]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Saved/Collections/' was aborted.
+[2017.08.09-09.26.16:007][265]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.09-09.26.16:007][265]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.09-09.26.16:007][265]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.09-09.26.16:308][265]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.09-09.26.16:309][265]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.09-09.26.16:310][265]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.09-09.26.16:311][265]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.09-09.26.16:777][265]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.09-09.26.16:777][265]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.09-09.26.16:777][265]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.09-09.26.16:777][265]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.09-09.26.16:777][265]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.09-09.26.16:777][265]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.09-09.26.16:777][265]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.09-09.26.16:778][265]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.09-09.26.16:834][265]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.09-09.26.16:835][265]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.09-09.26.17:004][265]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.09-09.26.17:005][265]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.09-09.26.17:006][265]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.09-09.26.17:006][265]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.09-09.26.17:006][265]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.09-09.26.17:006][265]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.09-09.26.17:006][265]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.09-09.26.17:006][265]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.09-09.26.17:107][265]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.09-09.26.17:207][265]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.09-09.26.17:207][265]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.09-09.26.17:207][265]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.09-09.26.17:207][265]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.09-09.26.17:207][265]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.09-09.26.17:207][265]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.09-09.26.17:207][265]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.09-09.26.17:208][265]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.09-09.26.17:243][265]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.09-09.26.17:243][265]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.09-09.26.17:243][265]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.09-09.26.17:243][265]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.09-09.26.17:243][265]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.09-09.26.17:243][265]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.09-09.26.17:244][265]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.09-09.26.17:244][265]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.09-09.26.17:244][265]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.09-09.26.17:244][265]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.09-09.26.17:244][265]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.09-09.26.17:244][265]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.09-09.26.17:362][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.09-09.26.17:362][265]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/' was aborted.
+[2017.08.09-09.26.17:362][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.09-09.26.17:362][265]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.09-09.26.17:365][265]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.09-09.26.17:398][265]LogDerivedDataCache: Shutdown
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.09-09.26.17:398][265]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.09-09.26.17:399][265]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.09-09.26.17:399][265]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.09-09.26.17:399][265]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.09-09.26.17:399][265]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF576CA4F-41FB-0AD0-E33F-388864E95187%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=d32318d6443c82eb45d804811fdeaea0%7Ceefdd4ab262c4db284bee4401cb30bf5%7Cc01a5bb9-2f54-4422-ad79-7f6ef5dfa6ae&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.09-09.26.17:399][265]LogHttp:Warning: 000002C28845BB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.09-09.26.17:399][265]LogHttp:Warning: 000002C28845BB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.09-09.26.17:399][265]LogHttp:Warning: 000002C28845BB80: libcurl info message cache 1 (Closing connection 6)
+[2017.08.09-09.26.17:432][265]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.09-09.26.17:434][265]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.09-09.26.17:436][265]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.09-09.26.17:437][265]LogExit: Exiting.
+[2017.08.09-09.26.17:445][265]Log file closed, 08/09/17 18:26:17
