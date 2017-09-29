@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 8/28/2017, 12:33:56
+      Time of this report: 9/29/2017, 18:35:15
              Machine name: DESKTOP-RM5SNBE
                Machine Id: {747AB3D4-CE90-464A-B545-5C38A1FD9ACF}
          Operating System: Windows 10 Home 64-bit (10.0, Build 15063) (15063.rs2_release.170317-1834)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz (4 CPUs), ~2.7GHz
                    Memory: 8192MB RAM
       Available OS Memory: 8078MB RAM
-                Page File: 3577MB used, 5781MB available
+                Page File: 5960MB used, 3398MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -22,6 +22,7 @@ System Information
                  Miracast: Available, with HDCP
 Microsoft Graphics Hybrid: Supported
            DxDiag Version: 10.00.15063.0000 64bit Unicode
+  DxDiag Previously: Crashed in Direct3D (stage 2) & Diagnostics (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
@@ -54,20 +55,20 @@ Display Devices
       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
 Device Problem Code: No Problem
 Driver Problem Code: Unknown
-     Display Memory: 4167 MB
-   Dedicated Memory: 128 MB
-      Shared Memory: 4039 MB
+     Display Memory: Unknown
+   Dedicated Memory: n/a
+      Shared Memory: n/a
        Current Mode: 1920 x 1080 (32 bit) (60Hz)
        Monitor Name: Generic PnP Monitor
-      Monitor Model: unknown
-         Monitor Id: LGD04A8
-        Native Mode: 1920 x 1080(p) (60.020Hz)
-        Output Type: Internal
+      Monitor Model: 
+         Monitor Id: 
+        Native Mode: 
+        Output Type: 
         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\ki119054.inf_amd64_0bc1ec00286be982\igdumdim64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\ki119054.inf_amd64_0bc1ec00286be982\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\ki119054.inf_amd64_0bc1ec00286be982\igd10iumd64.dll,C:\WINDOWS\System32\DriverStore\FileRepository\ki119054.inf_amd64_0bc1ec00286be982\igd12umd64.dll
-Driver File Version: 21.20.0016.4534 (English)
+Driver File Version: Unknown (Unknown)
      Driver Version: 21.20.16.4534
-        DDI Version: 12
-     Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
+        DDI Version: Unknown
+     Feature Levels: Unknown
        Driver Model: WDDM 2.1
 Graphics Preemption: Triangle
  Compute Preemption: Thread
@@ -75,51 +76,28 @@ Graphics Preemption: Triangle
 Hybrid Graphics GPU: Integrated
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: 2016-10-07 오전 9:00:00, 95023840 bytes
-        WHQL Logo'd: Yes
-    WHQL Date Stamp: Unknown
-  Device Identifier: {D7B78E66-1A56-11CF-526A-7522B9C2D835}
+   Driver Date/Size: Unknown, 0 bytes
+        WHQL Logo'd: n/a
+    WHQL Date Stamp: n/a
+  Device Identifier: Unknown
           Vendor ID: 0x8086
           Device ID: 0x5916
           SubSys ID: 0x02651854
         Revision ID: 0x0002
  Driver Strong Name: oem1.inf:5f63e534fccdbc6c:iKBLD_w10_DS:21.20.16.4534:pci\ven_8086&dev_5916&subsys_02651854
      Rank Of Driver: 00D10001
-        Video Accel: ModeMPEG2_A ModeMPEG2_C ModeWMV9_C ModeVC1_C 
-        DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeMPEG2_IDCT  DXVA2_ModeVC1_D2010  DXVA2_ModeWMV9_IDCT  DXVA2_ModeVC1_IDCT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_Multiview_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  
-   Deinterlace Caps: {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(UYVY,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(YV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(NV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC1,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC2,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC3,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-                     {BF752EF6-8CC4-457A-BE1B-08BD1CAEEE9F}: Format(In/Out)=(IMC4,YUY2) Frames(Prev/Fwd/Back)=(0,0,1) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_EdgeFiltering 
-                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend DeinterlaceTech_BOBVerticalStretch 
-                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY VideoProcess_AlphaBlend 
-       D3D9 Overlay: Supported
-            DXVA-HD: Supported
-       DDraw Status: Enabled
-         D3D Status: Enabled
-         AGP Status: Enabled
-           MPO Caps: Not Supported
-        MPO Stretch: Not Supported
-    MPO Media Hints: Not Supported
-        MPO Formats: Not Supported
+        Video Accel: Unknown
+        DXVA2 Modes: Unknown
+      Deinterlace Caps: n/a
+       D3D9 Overlay: Unknown
+            DXVA-HD: Unknown
+       DDraw Status: Disabled
+         D3D Status: Not Available
+         AGP Status: Not Available
+           MPO Caps: Unknown
+        MPO Stretch: Unknown
+    MPO Media Hints: Unknown
+        MPO Formats: Unknown
 
           Card name: NVIDIA GeForce 940MX
        Manufacturer: NVIDIA
@@ -130,15 +108,15 @@ Hybrid Graphics GPU: Integrated
       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
 Device Problem Code: No Problem
 Driver Problem Code: Unknown
-     Display Memory: 6059 MB
-   Dedicated Memory: 2019 MB
-      Shared Memory: 4039 MB
+     Display Memory: Unknown
+   Dedicated Memory: n/a
+      Shared Memory: n/a
        Current Mode: Unknown
         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nvqu.inf_amd64_3b00c43d95e13bfc\nvd3dumx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvqu.inf_amd64_3b00c43d95e13bfc\nvwgf2umx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvqu.inf_amd64_3b00c43d95e13bfc\nvwgf2umx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvqu.inf_amd64_3b00c43d95e13bfc\nvwgf2umx.dll
-Driver File Version: 21.21.0013.6932 (English)
+Driver File Version: Unknown (Unknown)
      Driver Version: 21.21.13.6932
-        DDI Version: 12
-     Feature Levels: 11_0,10_1,10_0,9_3,9_2,9_1
+        DDI Version: Unknown
+     Feature Levels: Unknown
        Driver Model: WDDM 2.1
 Graphics Preemption: DMA
  Compute Preemption: DMA
@@ -146,9 +124,9 @@ Graphics Preemption: DMA
 Hybrid Graphics GPU: Discrete
      Power P-states: Not Supported
   Driver Attributes: Final Retail
-   Driver Date/Size: 2016-09-07 오전 9:00:00, 17476824 bytes
-        WHQL Logo'd: Yes
-    WHQL Date Stamp: Unknown
+   Driver Date/Size: Unknown, 0 bytes
+        WHQL Logo'd: n/a
+    WHQL Date Stamp: n/a
   Device Identifier: Unknown
           Vendor ID: 0x10DE
           Device ID: 0x134D
@@ -161,13 +139,13 @@ Hybrid Graphics GPU: Discrete
       Deinterlace Caps: n/a
        D3D9 Overlay: Unknown
             DXVA-HD: Unknown
-       DDraw Status: Enabled
-         D3D Status: Enabled
-         AGP Status: Enabled
-           MPO Caps: Not Supported
-        MPO Stretch: Not Supported
-    MPO Media Hints: Not Supported
-        MPO Formats: Not Supported
+       DDraw Status: Disabled
+         D3D Status: Not Available
+         AGP Status: Not Available
+           MPO Caps: Unknown
+        MPO Stretch: Unknown
+    MPO Media Hints: Unknown
+        MPO Formats: Unknown
 
 -------------
 Sound Devices
@@ -565,7 +543,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 78.1 GB
+ Free Space: 77.3 GB
 Total Space: 108.0 GB
 File System: NTFS
       Model: SanDisk SD8SNAT-128G-1009
@@ -1399,7 +1377,7 @@ Disabled Media Sources
 ---------------
 EVR Power Information
 ---------------
-Current Setting: {651288E5-A7ED-4076-A96B-6CC62D848FE1} (Balanced)
+Current Setting: {5C67A112-A4C9-483F-B4A7-1D473BECAFDC} (Quality) 
   Quality Flags: 2576
     Enabled:
     Force throttling
@@ -1420,341 +1398,3 @@ Current Setting: {651288E5-A7ED-4076-A96B-6CC62D848FE1} (Balanced)
     Force half deinterlace
     Force scaling
     Decode Power Usage: 0
-
----------------
-Diagnostics
----------------
-
-Windows Error Reporting:
-+++ WER0 +++:
-오류 버킷 , 유형 0
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: AUDIODG.EXE
-P2: 10.0.15063.447
-P3: e365c782
-P4: StackHash_2517
-P5: 10.0.15063.447
-P6: a329d3a8
-P7: c0000374
-P8: PCH_A5_FROM_ntdll+0x00000000000A5EF4
-P9: 
-P10: 
-
-첨부 파일:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_AUDIODG.EXE_f065f0df1c322bfe887d36ef5ece2f5ad336fdf_764cd5f2_cab_191d6dbf\minidump.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6A93.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6AA2.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER6AB3.tmp.txt
-\\?\C:\Windows\ServiceProfiles\LocalService\AppData\Local\Temp\WER6B02.tmp.appcompat.txt
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_AUDIODG.EXE_f065f0df1c322bfe887d36ef5ece2f5ad336fdf_764cd5f2_cab_191d6dbf\memory.hdmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_AUDIODG.EXE_f065f0df1c322bfe887d36ef5ece2f5ad336fdf_764cd5f2_cab_191d6dbf
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 47202fcf-4c78-4588-8f98-39c153ed681f
-보고서 상태: 4
-해시된 패킷: 
-+++ WER1 +++:
-오류 버킷 120787473021, 유형 4
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: APO3GUI.exe
-P2: 1.0.59.0
-P3: 586c3a59
-P4: StackHash_e252
-P5: 10.0.15063.447
-P6: a329d3a8
-P7: c0000374
-P8: PCH_0E_FROM_ntdll+0x00000000000A5EF4
-P9: 
-P10: 
-
-첨부 파일:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_APO3GUI.exe_61853e367712221a70d8b42ba28704dce55f7f_a76bd426_cab_27d4a3b2\minidump.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA170.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA17F.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA190.tmp.txt
-\\?\C:\Users\user\AppData\Local\Temp\WERA2E9.tmp.appcompat.txt
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_APO3GUI.exe_61853e367712221a70d8b42ba28704dce55f7f_a76bd426_cab_27d4a3b2\memory.hdmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_APO3GUI.exe_61853e367712221a70d8b42ba28704dce55f7f_a76bd426_1f0121db
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 249dd85f-c68e-460a-8cc7-4a5f9f2a1277
-보고서 상태: 268435458
-해시된 패킷: c11022dfffd00eb7a83064737843376e
-+++ WER2 +++:
-오류 버킷 , 유형 0
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: APO3GUI.exe
-P2: 1.0.59.0
-P3: 586c3a59
-P4: StackHash_e252
-P5: 10.0.15063.447
-P6: a329d3a8
-P7: c0000374
-P8: PCH_0E_FROM_ntdll+0x00000000000A5EF4
-P9: 
-P10: 
-
-첨부 파일:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_APO3GUI.exe_61853e367712221a70d8b42ba28704dce55f7f_a76bd426_cab_27d4a3b2\minidump.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA170.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA17F.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERA190.tmp.txt
-\\?\C:\Users\user\AppData\Local\Temp\WERA2E9.tmp.appcompat.txt
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_APO3GUI.exe_61853e367712221a70d8b42ba28704dce55f7f_a76bd426_cab_27d4a3b2\memory.hdmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_APO3GUI.exe_61853e367712221a70d8b42ba28704dce55f7f_a76bd426_cab_27d4a3b2
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 249dd85f-c68e-460a-8cc7-4a5f9f2a1277
-보고서 상태: 6
-해시된 패킷: 
-+++ WER3 +++:
-오류 버킷 129522288066, 유형 5
-이벤트 이름: RADAR_PRE_LEAK_64
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: chrome.exe
-P2: 60.0.3112.90
-P3: 10.0.15063.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-첨부 파일:
-\\?\C:\Users\user\AppData\Local\Temp\RDRFA57.tmp\empty.txt
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFA58.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFA96.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERFAA6.tmp.txt
-
-이 파일은 다음에서 사용할 수 있습니다.
-
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: b11265cf-52d2-4e1f-a663-afa89fcf4e66
-보고서 상태: 268435456
-해시된 패킷: 2c81880b525a4348660ad1a2f12cd872
-+++ WER4 +++:
-오류 버킷 120793557691, 유형 4
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: svchost.exe_AppReadiness
-P2: 10.0.15063.0
-P3: 02799ef5
-P4: StackHash_78ec
-P5: 10.0.15063.447
-P6: a329d3a8
-P7: c0000374
-P8: PCH_82_FROM_ntdll+0x00000000000A5EF4
-P9: 
-P10: 
-
-첨부 파일:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c\minidump.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB815.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB824.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB825.tmp.txt
-\\?\C:\Windows\Temp\WERB836.tmp.appcompat.txt
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c\memory.hdmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_0c42f7f2
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 29154f7a-a09d-4fed-a242-0d9ab2e9a563
-보고서 상태: 268435556
-해시된 패킷: 3619e0d09341b2f01c2ab4ecccf56a50
-+++ WER5 +++:
-오류 버킷 , 유형 0
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: svchost.exe_AppReadiness
-P2: 10.0.15063.0
-P3: 02799ef5
-P4: StackHash_78ec
-P5: 10.0.15063.447
-P6: a329d3a8
-P7: c0000374
-P8: PCH_82_FROM_ntdll+0x00000000000A5EF4
-P9: 
-P10: 
-
-첨부 파일:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c\minidump.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB815.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB824.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB825.tmp.txt
-\\?\C:\Windows\Temp\WERB836.tmp.appcompat.txt
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c\memory.hdmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 29154f7a-a09d-4fed-a242-0d9ab2e9a563
-보고서 상태: 100
-해시된 패킷: 
-+++ WER6 +++:
-오류 버킷 , 유형 0
-이벤트 이름: APPCRASH
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: svchost.exe_AppReadiness
-P2: 10.0.15063.0
-P3: 02799ef5
-P4: StackHash_78ec
-P5: 10.0.15063.447
-P6: a329d3a8
-P7: c0000374
-P8: PCH_82_FROM_ntdll+0x00000000000A5EF4
-P9: 
-P10: 
-
-첨부 파일:
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c\minidump.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB815.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB824.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB825.tmp.txt
-\\?\C:\Windows\Temp\WERB836.tmp.appcompat.txt
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c\memory.hdmp
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_svchost.exe_AppR_665c21757d542788e24c57a44515aa4a010b985_bd2bca94_cab_1474b98c
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 29154f7a-a09d-4fed-a242-0d9ab2e9a563
-보고서 상태: 4
-해시된 패킷: 
-+++ WER7 +++:
-오류 버킷 116426274682, 유형 5
-이벤트 이름: BEX
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: x2.exe
-P2: 0.0.0.0
-P3: 598bd8a9
-P4: StackHash_6fbb
-P5: 0.0.0.0
-P6: 00000000
-P7: PCH_7F_FROM_ntdll+0x00086202
-P8: c0000409
-P9: 00000007
-P10: 
-
-첨부 파일:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBBD8.tmp.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBD21.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBD20.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERBD40.tmp.txt
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_x2.exe_b412cb293a1e165ee8cfa842dd8a97c5b2449e61_1ecb57eb_0d98c53e
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 7a6a5a78-5583-4740-8187-9a87a85edaca
-보고서 상태: 268566528
-해시된 패킷: dd974d8b5226cdd0903e003372ac5320
-+++ WER8 +++:
-오류 버킷 116426600898, 유형 5
-이벤트 이름: BEX
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: x2.exe
-P2: 0.0.0.0
-P3: 598bd8a9
-P4: StackHash_6fbb
-P5: 0.0.0.0
-P6: 00000000
-P7: PCH_7E_FROM_ntdll+0x00086202
-P8: c0000409
-P9: 00000007
-P10: 
-
-첨부 파일:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB563.tmp.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB767.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB776.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WERB787.tmp.txt
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_x2.exe_b7cff7983de9bad887852535cee8864f7a8fa0ba_1ecb57eb_0cfcbe7b
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 230ff170-0ffb-4e37-b720-67fa82fc5886
-보고서 상태: 268566528
-해시된 패킷: c032da5cec7736fd5377dd2a106c22f5
-+++ WER9 +++:
-오류 버킷 116426486680, 유형 5
-이벤트 이름: BEX
-응답: 사용할 수 없음
-Cab ID: 0
-
-문제 서명:
-P1: x2.exe
-P2: 0.0.0.0
-P3: 598bd8a9
-P4: StackHash_6fbb
-P5: 0.0.0.0
-P6: 00000000
-P7: PCH_63_FROM_ntdll+0x00086202
-P8: c0000409
-P9: 00000007
-P10: 
-
-첨부 파일:
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER9D1F.tmp.mdmp
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER9F72.tmp.WERInternalMetadata.xml
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER9F80.tmp.csv
-\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER9F91.tmp.txt
-
-이 파일은 다음에서 사용할 수 있습니다.
-C:\ProgramData\Microsoft\Windows\WER\ReportArchive\AppCrash_x2.exe_93524fc18a9a471ffd11ba4e31ea7f96971095_1ecb57eb_144ca76f
-
-분석 기호: 
-해결 방법 재확인: 0
-보고서 ID: 1952ac1e-e27c-4eb5-8727-3c3404ef3c43
-보고서 상태: 268566528
-해시된 패킷: bfa54c52b45d9d0a46eaa95eaf17d66e
