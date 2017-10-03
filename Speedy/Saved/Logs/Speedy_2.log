@@ -1,9 +1,9 @@
-﻿Log file open, 09/29/17 18:34:02
+﻿Log file open, 10/04/17 00:17:53
 LogInit:Display: Running engine for game: Speedy
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1815328245) SRandInit(-1815328245).
+LogInit:Display: RandInit(195603404) SRandInit(195603404).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.091310
+LogStats: Stats thread started at 0.119494
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,600 +46,643 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line:  
-LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.09.29-09.34.02:808][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.29-09.34.02:809][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.09.29-09.34.02:821][  0]LogInit: Computer: DESKTOP-RM5SNBE
-[2017.09.29-09.34.02:821][  0]LogInit: User: user
-[2017.09.29-09.34.02:821][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.09.29-09.34.02:821][  0]LogInit: High frequency timer resolution =2.648443 MHz
-[2017.09.29-09.34.02:822][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.09.29-09.34.02:822][  0]LogMemory: Platform Memory Stats for Windows
-[2017.09.29-09.34.02:822][  0]LogMemory: Process Physical Memory: 273.97 MB used, 273.97 MB peak
-[2017.09.29-09.34.02:822][  0]LogMemory: Process Virtual Memory: 266.35 MB used, 266.35 MB peak
-[2017.09.29-09.34.02:822][  0]LogMemory: Physical Memory: 3178.04 MB used,  4900.90 MB free, 8078.94 MB total
-[2017.09.29-09.34.02:822][  0]LogMemory: Virtual Memory: 641.70 MB used,  4900.90 MB free, 134217728.00 MB total
-[2017.09.29-09.34.03:113][  0]LogInit: Using OS detected language (ko-KR).
-[2017.09.29-09.34.03:113][  0]LogInit: Using OS detected locale (ko-KR).
-[2017.09.29-09.34.03:118][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2017.09.29-09.34.06:195][  0]LogD3D11RHI: D3D11 adapters:
-[2017.09.29-09.34.06:477][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
-[2017.09.29-09.34.06:477][  0]LogD3D11RHI:       2019/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.09.29-09.34.06:489][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2017.09.29-09.34.06:489][  0]LogD3D11RHI:       128/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.09.29-09.34.06:491][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.09.29-09.34.06:491][  0]LogD3D11RHI:       0/0/4039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.09.29-09.34.06:491][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.09.29-09.34.06:500][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.09.29-09.34.06:500][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
-[2017.09.29-09.34.06:500][  0]LogWindows: EnumDisplayDevices:
-[2017.09.29-09.34.06:500][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2017.09.29-09.34.06:501][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2017.09.29-09.34.06:501][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2017.09.29-09.34.06:501][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.09.29-09.34.06:501][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
-[2017.09.29-09.34.06:501][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.09.29-09.34.06:501][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.09.29-09.34.06:501][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.09.29-09.34.06:531][  0]LogD3D11RHI: Async texture creation enabled
-[2017.09.29-09.34.06:857][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.09.29-09.34.06:995][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/Shaders/WorkingDirectory/5960/).
-[2017.09.29-09.34.06:995][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/824FFEDE4526C558D3409087BE51B697/'.
-[2017.09.29-09.34.07:002][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.09.29-09.34.11:062][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.09.29-09.34.11:133][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.09.29-09.34.11:204][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.09.29-09.34.11:271][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.09.29-09.34.11:368][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.09.29-09.34.11:424][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.09.29-09.34.11:484][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.09.29-09.34.11:541][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.09.29-09.34.11:590][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.09.29-09.34.11:685][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.09.29-09.34.11:763][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.09.29-09.34.11:819][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.09.29-09.34.11:875][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.09.29-09.34.11:930][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.09.29-09.34.11:999][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.09.29-09.34.12:110][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.09.29-09.34.12:110][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.09.29-09.34.12:154][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.09.29-09.34.12:336][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.09.29-09.34.12:371][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.09.29-09.34.12:431][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.09.29-09.34.12:492][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.09.29-09.34.12:552][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.09.29-09.34.12:644][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.09.29-09.34.12:644][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.09.29-09.34.14:080][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.09.29-09.34.14:784][  0]LogDerivedDataCache: Loaded boot cache 0.70s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.29-09.34.14:784][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.09.29-09.34.14:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/user/Documents/Unreal Projects/Speedy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.09.29-09.34.14:785][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.09.29-09.34.14:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/user/Documents/Unreal Projects/Speedy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.09.29-09.34.14:785][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.09.29-09.34.14:969][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.09.29-09.34.14:982][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.09.29-09.34.15:051][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.09.29-09.34.15:100][  0]LogSlate: Using Freetype 2.6.0
-[2017.09.29-09.34.15:211][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.29-09.34.15:211][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.09.29-09.34.22:596][  0]LogInit: Selected Device Profile: [Windows]
-[2017.09.29-09.34.22:933][  0]LogConfig:Warning: Failed to saved backup for config[GameplayTags]
-[2017.09.29-09.34.23:833][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.09.29-09.34.24:497][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.09.29-09.34.24:602][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.09.29-09.34.24:698][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.09.29-09.34.24:698][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.09.29-09.34.24:698][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.09.29-09.34.29:865][  0]LogNetVersion: Speedy , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 418536735)
-[2017.09.29-09.34.30:173][  0]LogAssetRegistry: FAssetRegistry took 0.0523 seconds to start up
-[2017.09.29-09.34.30:433][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/b41d435a.bin
-[2017.09.29-09.34.30:439][  0]LogFileManager:Warning: DeleteFile was unable to delete 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.30:941][  0]LogFileManager:Warning: DeleteFile recovered during retry!
-[2017.09.29-09.34.30:941][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.31:442][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.31:943][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.32:443][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.32:944][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.33:444][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.33:945][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.34:446][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.34:948][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.35:448][  0]LogFileManager:Warning: MoveFile was unable to move 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin', retrying in .5s...
-[2017.09.29-09.34.35:950][  0]LogFileManager:Error: Error moving file 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Intermediate/AssetRegistryCache/08131104.bin'.
-[2017.09.29-09.34.35:992][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 5.778070 seconds
-[2017.09.29-09.34.35:999][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.09.29-09.34.35:999][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.09.29-09.34.35:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.09.29-09.34.36:060][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.09.29-09.34.46:740][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.09.29-09.34.46:794][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.09.29-09.34.48:191][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.09.29-09.34.48:999][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.09.29-09.34.49:011][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.09.29-09.34.49:169][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.09.29-09.34.49:237][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.09.29-09.34.50:571][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.09.29-09.34.51:658][  0]LogEngine: Initializing Engine...
-[2017.09.29-09.34.51:679][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.09.29-09.34.52:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.09.29-09.34.52:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.09.29-09.34.53:013][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.09.29-09.34.53:155][  0]LogInit: XAudio2 using 'Speakers(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.09.29-09.34.53:301][  0]LogInit: FAudioDevice initialized.
-[2017.09.29-09.34.53:382][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/user/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.09.29-09.34.53:396][  0]LogInit: Texture streaming: Enabled
-[2017.09.29-09.34.53:527][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.09.29-09.34.54:248][  0]LogInit: Transaction tracking system initialized
-[2017.09.29-09.34.54:920][  0]BlueprintLog: New page: 에디터 로드
-[2017.09.29-09.34.57:045][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
-[2017.09.29-09.34.58:410][  0]LogConsoleResponse:Display: 
-[2017.09.29-09.35.02:414][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/' took 0.14s
-[2017.09.29-09.35.02:414][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.09.29-09.35.02:414][  0]LogCook:Display: Mobile HDR setting 0
-[2017.09.29-09.35.06:728][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.09.29-09.35.06:761][  0]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.29-09.35.06:807][  0]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.35.06:984][  0]MapCheck: New page: 맵 체크
-[2017.09.29-09.35.06:984][  0]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.35.08:229][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2017.09.29-09.35.08:459][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.29-09.35.08:533][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.29-09.35.08:631][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 97.602ms.
-[2017.09.29-09.35.08:631][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.877
-[2017.09.29-09.35.09:993][  0]LogCollectionManager: Loaded 0 collections in 0.001788 seconds
-[2017.09.29-09.35.10:313][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Saved/Collections/' took 0.01s
-[2017.09.29-09.35.10:313][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Developers/user/Collections/' took 0.01s
-[2017.09.29-09.35.10:313][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Collections/' took 0.01s
-[2017.09.29-09.35.10:313][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2017.09.29-09.35.10:331][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2329 classes and 491 folders.
-[2017.09.29-09.35.10:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.09.29-09.35.12:068][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.09.29-09.35.12:239][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.09.29-09.35.12:824][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.09.29-09.35.12:940][  0]LogSlate: Took 0.041886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.29-09.35.13:030][  0]LogSlate: Took 0.089102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2017.09.29-09.35.13:048][  0]LogSlate: Took 0.016592 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.09.29-09.35.13:102][  0]LogSlate: Took 0.013374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.09.29-09.35.13:555][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:1).
-[2017.09.29-09.35.14:507][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
-[2017.09.29-09.35.14:652][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.09.29-09.35.14:652][  0]LogLoad: (Engine Initialization) Total time: 73.80 seconds
-[2017.09.29-09.35.14:653][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.76 seconds
-[2017.09.29-09.35.14:653][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.09.29-09.35.14:686][  0]LogOcInput: OculusInput pre-init called
-[2017.09.29-09.35.14:686][  0]LogHMD: Starting GearVRController plugin
-[2017.09.29-09.35.14:776][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.09.29-09.35.14:923][  0]LogSlate: Took 0.006781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.29-09.35.15:130][  2]LogAssetRegistry: Asset discovery search completed in 44.9797 seconds
-[2017.09.29-09.35.15:132][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.09.29-09.35.15:133][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
-[2017.09.29-09.35.21:573][477]LogStreaming:Warning: Failed to open ANSI TEXT file C:/Users/user/Documents/Unreal Projects/Speedy/Saved/HardwareSurvey/dxdiag.txt
-[2017.09.29-09.35.21:588][478]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() failed to parse available memory from dxdiag report
-[2017.09.29-09.35.21:621][478]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
-[2017.09.29-09.35.21:621][478]LogSynthBenchmark:Display: ===============
-[2017.09.29-09.35.21:621][478]LogSynthBenchmark:Display: Main Processor:
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:          ... 0.028735 s/Run 'RayIntersect'
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:          ... 0.023575 s/Run 'Fractal'
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display: 
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   CPU Perf Index 0: 89.1 (weight 1.00)
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   CPU Perf Index 1: 121.3 (weight 1.50)
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:  
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display: Graphics:
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce 940MX'
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   Device Id: 0x134D
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   Device Revision: 0xA2
-[2017.09.29-09.35.21:882][478]LogSynthBenchmark:Display:   GPU Memory: 2020/0/4040 MB
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:   GPU first test: 0.16s
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.816 s/GigaPix, Confidence=19% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.350 s/GigaPix, Confidence=19% 'TexHeavy' (likely to be very inaccurate)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.221 s/GigaPix, Confidence=19% 'DepTexHeavy' (likely to be very inaccurate)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 6.983 s/GigaPix, Confidence=19% 'FillOnly' (likely to be very inaccurate)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 0.223 s/GigaPix, Confidence=19% 'Bandwidth' (likely to be very inaccurate)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 0.253 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.452 s/GigaVert, Confidence=19% 'VertThroughPut2' (likely to be very inaccurate)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:   GPU Final Results:
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.816 s/GigaPix, Confidence=19% 'ALUHeavyNoise'
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.350 s/GigaPix, Confidence=19% 'TexHeavy'
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.221 s/GigaPix, Confidence=19% 'DepTexHeavy'
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 6.983 s/GigaPix, Confidence=19% 'FillOnly'
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 0.223 s/GigaPix, Confidence=19% 'Bandwidth'
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 0.253 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:          ... 1.452 s/GigaVert, Confidence=19% 'VertThroughPut2'
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display: 
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:   GPU Perf Index 0: 39.5 (weight 1.00)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:   GPU Perf Index 1: 18.1 (weight 0.10)
-[2017.09.29-09.35.22:192][478]LogSynthBenchmark:Display:   GPU Perf Index 2: 31.7 (weight 0.10)
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display:   GPU Perf Index 3: 27.4 (weight 3.00)
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display:   GPU Perf Index 4: 20.8 (weight 1.00)
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display:   GPU Perf Index 5: 16.5 (weight 0.00)
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display:   GPU Perf Index 6: 82.2 (weight 0.00)
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display:   CPUIndex: 108.4
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display:   GPUIndex: 28.4
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display: 
-[2017.09.29-09.35.22:193][478]LogSynthBenchmark:Display:          ... Total Time: 0.572010 sec
-[2017.09.29-09.35.23:266][498]LogSlate: Took 0.015562 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.29-09.35.24:001][498]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.09.29-09.35.24:624][498]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
-[2017.09.29-09.35.26:562][498]LogSlate: Took 0.012791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.09.29-09.35.27:554][499]LogSlate: Took 0.012966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.09.29-09.36.11:318][849]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.09.29-09.36.20:661][201]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.09.29-09.36.25:362][531]LogTexture:Display: 텍스처 빌드: speedy_button4 (BGRA8, 512X128)
-[2017.09.29-09.36.28:377][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Textures/speedy_button4" FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScroller/Textures/speedy_button4.uasset" SILENT=true
-[2017.09.29-09.36.28:505][714]LogSavePackage: Save=30.53ms
-[2017.09.29-09.36.28:505][714]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/Speedy/Saved/speedy_button4E8A1A9ED42903E0E3418C0A52B452D08.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScroller/Textures/speedy_button4.uasset'
-[2017.09.29-09.36.28:543][714]LogSavePackage:Display: Finished SavePackage C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScroller/Textures/speedy_button4.uasset
-[2017.09.29-09.36.29:275][762]LogEditorFactories: Performing atomic reimport of [C:/Users/user/Documents/Unreal Projects/Speedy/Assets/speedy_button4.png]
-[2017.09.29-09.36.29:311][762]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/user/Documents/Unreal Projects/Speedy/Assets/speedy_button4.png)
-[2017.09.29-09.36.29:375][762]LogTexture:Display: 텍스처 빌드: speedy_button4 (BGRA8, 512X128)
-[2017.09.29-09.36.29:384][762]LogEditorFactories: -- imported successfully
-[2017.09.29-09.37.02:670][602]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
-[2017.09.29-09.37.07:064][966]LogAIModule: Creating AISystem for world main
-[2017.09.29-09.37.10:090][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Textures/speedy_button4" FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScroller/Textures/speedy_button4.uasset" SILENT=true
-[2017.09.29-09.37.10:148][966]LogSavePackage: Save=11.02ms
-[2017.09.29-09.37.10:148][966]LogSavePackage: Moving 'C:/Users/user/Documents/Unreal Projects/Speedy/Saved/speedy_button4C25B565F43A9294002ACAEBB595BA4BB.tmp' to 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScroller/Textures/speedy_button4.uasset'
-[2017.09.29-09.37.10:155][966]LogSavePackage:Display: Finished SavePackage C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScroller/Textures/speedy_button4.uasset
-[2017.09.29-09.37.10:156][966]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/Blueprints/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.29-09.37.10:156][966]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.10:158][966]LoadErrors: New page: 맵 로드중: main.umap
-[2017.09.29-09.37.10:160][966]MapCheck: New page: 맵 체크
-[2017.09.29-09.37.10:160][966]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.10:212][966]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.29-09.37.10:312][966]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.29-09.37.10:384][966]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 72.091ms.
-[2017.09.29-09.37.10:384][966]LogFileHelpers: Loading map 'main' took 0.229
-[2017.09.29-09.37.12:138][138]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/Blueprints/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.29-09.37.12:138][138]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.12:140][138]LoadErrors: New page: 맵 로드중: main.umap
-[2017.09.29-09.37.12:140][138]MapCheck: New page: 맵 체크
-[2017.09.29-09.37.12:140][138]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.12:180][138]LogAIModule: Creating AISystem for world main
-[2017.09.29-09.37.12:182][138]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.29-09.37.12:244][138]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.29-09.37.12:337][138]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 92.076ms.
-[2017.09.29-09.37.12:337][138]LogFileHelpers: Loading map 'main' took 0.200
-[2017.09.29-09.37.15:784][500]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/Blueprints/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.29-09.37.15:784][500]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.15:785][500]LoadErrors: New page: 맵 로드중: main.umap
-[2017.09.29-09.37.15:786][500]MapCheck: New page: 맵 체크
-[2017.09.29-09.37.15:786][500]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.15:829][500]LogAIModule: Creating AISystem for world main
-[2017.09.29-09.37.15:833][500]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.29-09.37.15:899][500]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.29-09.37.15:987][500]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 87.611ms.
-[2017.09.29-09.37.15:988][500]LogFileHelpers: Loading map 'main' took 0.204
-[2017.09.29-09.37.18:220][741]LogLinker:Warning: '/Game/2DSideScroller/Sprites/Bridge' 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:221][741]LogLinker:Warning: C:/Users/user/Documents/Unreal Projects/Speedy/Content/Blueprints/Bridge.uasset 로드중 '/Game/2DSideScroller/Sprites/Bridge' 애셋에 대한 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:221][741]LoadErrors:Error: 오류 /Game/Blueprints/Bridge : 애셋에 대한 파일을 찾을 수 없습니다. /Game/2DSideScroller/Sprites/Bridge
-[2017.09.29-09.37.18:221][741]LogLinker:Warning: '/Game/2DSideScroller/Sprites/Bridge' 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:221][741]LogLinker:Warning: C:/Users/user/Documents/Unreal Projects/Speedy/Content/Blueprints/Bridge.uasset 로드중 '/Game/2DSideScroller/Sprites/Bridge' 애셋에 대한 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:224][741]LogLinker:Warning: '/Game/2DSideScroller/Sprites/Bridge' 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:224][741]LogLinker:Warning: NULL 로드중 '/Game/2DSideScroller/Sprites/Bridge' 애셋에 대한 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:224][741]LogLinker:Warning: '/Game/2DSideScroller/Sprites/Bridge' 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:224][741]LogLinker:Warning: NULL 로드중 '/Game/2DSideScroller/Sprites/Bridge' 애셋에 대한 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:225][741]LogLinker:Warning: '/Game/2DSideScroller/Sprites/Bridge' 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.18:225][741]LoadErrors: 정보 로드에 실패했습니다. /Game/2DSideScroller/Sprites/Bridge.Bridge 레퍼런싱한 것: PaperSprite_GEN_VARIABLE
-[2017.09.29-09.37.18:225][741]LogLinker:Warning: NULL 로드중 '/Game/2DSideScroller/Sprites/Bridge' 애셋에 대한 파일을 찾을 수 없습니다.
-[2017.09.29-09.37.25:877][282]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/Blueprints/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.29-09.37.25:877][282]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.25:878][282]LoadErrors: New page: 맵 로드중: main.umap
-[2017.09.29-09.37.25:879][282]MapCheck: New page: 맵 체크
-[2017.09.29-09.37.25:879][282]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.25:919][282]LogAIModule: Creating AISystem for world main
-[2017.09.29-09.37.25:921][282]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.29-09.37.25:985][282]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.29-09.37.26:082][282]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 96.402ms.
-[2017.09.29-09.37.26:082][282]LogFileHelpers: Loading map 'main' took 0.206
-[2017.09.29-09.37.33:851][ 99]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2017.09.29-09.37.33:904][ 99]Cmd: MAP LOAD FILE="C:/Users/user/Documents/Unreal Projects/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.09.29-09.37.33:904][ 99]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.33:906][ 99]LoadErrors: New page: 맵 로드중: 2DSideScrollerExampleMap.umap
-[2017.09.29-09.37.33:907][ 99]MapCheck: New page: 맵 체크
-[2017.09.29-09.37.33:907][ 99]LightingResults: New page: 라이팅 빌드
-[2017.09.29-09.37.33:955][ 99]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.09.29-09.37.34:024][ 99]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.09.29-09.37.34:132][ 99]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 107.536ms.
-[2017.09.29-09.37.34:133][ 99]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.230
-[2017.09.29-09.38.40:074][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.09.29-09.38.40:152][682]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.09.29-09.38.40:416][683]Cmd: QUIT_EDITOR
-[2017.09.29-09.38.40:666][683]LogExit: Preparing to exit.
-[2017.09.29-09.38.41:447][683]LogExit: Editor shut down
-[2017.09.29-09.38.41:453][683]LogExit: Transaction tracking system shut down
-[2017.09.29-09.38.42:394][683]LogObj: Freed 0b from 0 cluster array pools.
-[2017.09.29-09.38.42:394][683]LogExit: Object subsystem successfully closed.
-[2017.09.29-09.38.42:571][683]LogD3D11RHI: Shutdown
-[2017.09.29-09.38.42:571][683]LogD3D11RHI: CleanupD3DDevice
-[2017.09.29-09.38.42:751][683]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.09.29-09.38.43:064][683]LogModuleManager: Shutting down and abandoning module TextureEditor (534)
-[2017.09.29-09.38.43:074][683]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
-[2017.09.29-09.38.43:074][683]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
-[2017.09.29-09.38.43:074][683]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
-[2017.09.29-09.38.43:082][683]LogModuleManager: Shutting down and abandoning module SynthBenchmark (526)
-[2017.09.29-09.38.43:082][683]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2017.09.29-09.38.43:082][683]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2017.09.29-09.38.43:082][683]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2017.09.29-09.38.43:082][683]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2017.09.29-09.38.43:098][683]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
-[2017.09.29-09.38.43:101][683]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2017.09.29-09.38.43:101][683]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2017.09.29-09.38.43:101][683]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2017.09.29-09.38.43:102][683]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Collections/' was aborted.
-[2017.09.29-09.38.43:102][683]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/Developers/user/Collections/' was aborted.
-[2017.09.29-09.38.43:102][683]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Saved/Collections/' was aborted.
-[2017.09.29-09.38.43:102][683]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2017.09.29-09.38.43:113][683]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.09.29-09.38.43:113][683]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module Media (471)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2017.09.29-09.38.43:122][683]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2017.09.29-09.38.43:135][683]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2017.09.29-09.38.43:163][683]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2017.09.29-09.38.43:163][683]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2017.09.29-09.38.43:163][683]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2017.09.29-09.38.43:163][683]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2017.09.29-09.38.43:163][683]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2017.09.29-09.38.43:164][683]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2017.09.29-09.38.43:181][683]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2017.09.29-09.38.43:181][683]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2017.09.29-09.38.43:204][683]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2017.09.29-09.38.43:204][683]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.09.29-09.38.43:204][683]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.09.29-09.38.43:204][683]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.09.29-09.38.43:204][683]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.09.29-09.38.43:681][683]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2017.09.29-09.38.43:681][683]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2017.09.29-09.38.43:681][683]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2017.09.29-09.38.43:681][683]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2017.09.29-09.38.43:681][683]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2017.09.29-09.38.43:681][683]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2017.09.29-09.38.43:683][683]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2017.09.29-09.38.43:683][683]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.09.29-09.38.43:708][683]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.09.29-09.38.43:709][683]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.09.29-09.38.43:709][683]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.09.29-09.38.43:709][683]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.09.29-09.38.43:709][683]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.09.29-09.38.43:728][683]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.09.29-09.38.43:741][683]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.09.29-09.38.43:741][683]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.09.29-09.38.43:741][683]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.09.29-09.38.43:796][683]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.09.29-09.38.43:797][683]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.09.29-09.38.43:815][683]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.09.29-09.38.43:828][683]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.09.29-09.38.43:828][683]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.09.29-09.38.43:829][683]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.09.29-09.38.43:830][683]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.09.29-09.38.43:857][683]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.09.29-09.38.43:857][683]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.09.29-09.38.43:857][683]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.09.29-09.38.43:872][683]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2017.09.29-09.38.43:872][683]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2017.09.29-09.38.43:872][683]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2017.09.29-09.38.43:872][683]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2017.09.29-09.38.43:881][683]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2017.09.29-09.38.43:881][683]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2017.09.29-09.38.43:882][683]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2017.09.29-09.38.43:882][683]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2017.09.29-09.38.43:882][683]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2017.09.29-09.38.43:882][683]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2017.09.29-09.38.43:882][683]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2017.09.29-09.38.43:899][683]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2017.09.29-09.38.43:936][683]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2017.09.29-09.38.43:937][683]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2017.09.29-09.38.43:937][683]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2017.09.29-09.38.43:937][683]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2017.09.29-09.38.43:948][683]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.09.29-09.38.43:948][683]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.09.29-09.38.43:948][683]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.09.29-09.38.43:948][683]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.09.29-09.38.43:948][683]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.09.29-09.38.43:948][683]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.09.29-09.38.44:049][683]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.09.29-09.38.44:150][683]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.09.29-09.38.44:192][683]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.09.29-09.38.44:192][683]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.09.29-09.38.44:192][683]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.09.29-09.38.44:192][683]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.09.29-09.38.44:192][683]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.09.29-09.38.44:200][683]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.09.29-09.38.44:201][683]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.09.29-09.38.44:212][683]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.09.29-09.38.44:212][683]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.09.29-09.38.44:212][683]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.09.29-09.38.44:221][683]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.09.29-09.38.44:222][683]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.09.29-09.38.44:236][683]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.09.29-09.38.44:262][683]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.09.29-09.38.44:263][683]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.09.29-09.38.44:263][683]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.09.29-09.38.44:298][683]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.09.29-09.38.44:298][683]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.09.29-09.38.44:301][683]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.09.29-09.38.44:301][683]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.09.29-09.38.44:301][683]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.09.29-09.38.44:301][683]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.09.29-09.38.44:301][683]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.09.29-09.38.44:301][683]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.09.29-09.38.44:564][683]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.09.29-09.38.44:564][683]LogDirectoryWatcher: A directory notification for 'C:/Users/user/Documents/Unreal Projects/Speedy/Content/' was aborted.
-[2017.09.29-09.38.44:564][683]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.09.29-09.38.44:564][683]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.09.29-09.38.44:568][683]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.09.29-09.38.44:568][683]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.09.29-09.38.44:568][683]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.09.29-09.38.44:568][683]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.09.29-09.38.44:569][683]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.09.29-09.38.44:607][683]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.09.29-09.38.44:608][683]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.09.29-09.38.44:608][683]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.09.29-09.38.44:608][683]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.09.29-09.38.44:667][683]LogDerivedDataCache: Shutdown
-[2017.09.29-09.38.44:667][683]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.09.29-09.38.44:667][683]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.09.29-09.38.44:667][683]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.09.29-09.38.44:667][683]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.09.29-09.38.44:668][683]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.09.29-09.38.44:668][683]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.09.29-09.38.44:668][683]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.09.29-09.38.44:668][683]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.09.29-09.38.44:668][683]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.09.29-09.38.44:668][683]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.09.29-09.38.44:669][683]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.09.29-09.38.44:669][683]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.09.29-09.38.44:669][683]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.09.29-09.38.44:670][683]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.09.29-09.38.44:681][683]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.09.29-09.38.44:681][683]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.09.29-09.38.44:681][683]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.09.29-09.38.44:681][683]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.09.29-09.38.44:682][683]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.09.29-09.38.44:682][683]LogOnline:Display: Unloading online subsystem: NULL
-[2017.09.29-09.38.44:682][683]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.09.29-09.38.44:703][683]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.09.29-09.38.44:703][683]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.09.29-09.38.44:717][683]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B08CAEE03-4FC1-E18B-C18D-3ABACB256F12%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=d32318d6443c82eb45d804811fdeaea0%7Ceefdd4ab262c4db284bee4401cb30bf5%7Cc01a5bb9-2f54-4422-ad79-7f6ef5dfa6ae&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.09.29-09.38.44:754][683]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.09.29-09.38.44:766][683]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.09.29-09.38.44:767][683]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.09.29-09.38.44:767][683]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.09.29-09.38.44:767][683]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.09.29-09.38.44:797][683]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.09.29-09.38.44:797][683]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.09.29-09.38.44:797][683]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.09.29-09.38.44:797][683]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.09.29-09.38.44:820][683]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.09.29-09.38.44:835][683]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.09.29-09.38.44:835][683]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.09.29-09.38.44:841][683]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.09.29-09.38.44:841][683]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.09.29-09.38.44:841][683]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.09.29-09.38.44:841][683]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.09.29-09.38.44:841][683]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.09.29-09.38.44:841][683]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.09.29-09.38.44:841][683]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.09.29-09.38.44:866][683]LogExit: Exiting.
-[2017.09.29-09.38.44:902][683]Log file closed, 09/29/17 18:38:44
+[2017.10.03-15.17.54:687][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-15.17.54:687][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.03-15.17.54:707][  0]LogInit: Computer: PAPERBOX
+[2017.10.03-15.17.54:707][  0]LogInit: User: 정민
+[2017.10.03-15.17.54:707][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.03-15.17.54:707][  0]LogInit: High frequency timer resolution =2.628193 MHz
+[2017.10.03-15.17.54:708][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.03-15.17.54:708][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.03-15.17.54:708][  0]LogMemory: Process Physical Memory: 275.25 MB used, 275.25 MB peak
+[2017.10.03-15.17.54:708][  0]LogMemory: Process Virtual Memory: 266.79 MB used, 266.79 MB peak
+[2017.10.03-15.17.54:708][  0]LogMemory: Physical Memory: 5085.41 MB used,  2988.83 MB free, 8074.24 MB total
+[2017.10.03-15.17.54:708][  0]LogMemory: Virtual Memory: 680.61 MB used,  2988.83 MB free, 134217728.00 MB total
+[2017.10.03-15.17.55:025][  0]LogInit: Using OS detected language (ko-KR).
+[2017.10.03-15.17.55:025][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.10.03-15.17.55:033][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.10.03-15.17.56:657][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.03-15.17.56:765][  0]LogD3D11RHI:    0. 'NVIDIA NVS 4200M' (Feature Level 11_0)
+[2017.10.03-15.17.56:765][  0]LogD3D11RHI:       979/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.03-15.17.56:892][  0]LogD3D11RHI:    1. 'NVIDIA NVS 4200M' (Feature Level 11_0)
+[2017.10.03-15.17.56:892][  0]LogD3D11RHI:       979/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2017.10.03-15.17.56:904][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.03-15.17.56:904][  0]LogD3D11RHI:       979/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.03-15.17.56:904][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.03-15.17.56:924][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.03-15.17.56:924][  0]LogD3D11RHI:     GPU DeviceId: 0x1056 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.03-15.17.56:924][  0]LogWindows: EnumDisplayDevices:
+[2017.10.03-15.17.56:924][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2017.10.03-15.17.56:925][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.10.03-15.17.56:925][  0]LogWindows:    2. 'NVIDIA NVS 4200M' (P:0 D:0)
+[2017.10.03-15.17.56:925][  0]LogWindows:    3. 'NVIDIA NVS 4200M' (P:0 D:0)
+[2017.10.03-15.17.56:925][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.03-15.17.56:925][  0]LogD3D11RHI:     Adapter Name: NVIDIA NVS 4200M
+[2017.10.03-15.17.56:925][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.03-15.17.56:925][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.03-15.17.56:925][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2017.10.03-15.17.57:000][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.10.03-15.17.57:000][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.03-15.17.57:017][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.03-15.17.57:019][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Intermediate/Shaders/WorkingDirectory/5648/).
+[2017.10.03-15.17.57:019][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/정민/AppData/Local/Temp/UnrealShaderWorkingDir/076A18EA41198019621F4591F824A8B7/'.
+[2017.10.03-15.17.57:019][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.03-15.17.59:793][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.03-15.18.00:009][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.03-15.18.00:192][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.03-15.18.00:396][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.03-15.18.00:608][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.03-15.18.00:823][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.03-15.18.01:043][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.03-15.18.01:265][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.03-15.18.01:499][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.03-15.18.01:724][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.03-15.18.01:909][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.03-15.18.02:093][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.03-15.18.02:283][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.03-15.18.02:469][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.03-15.18.02:650][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.03-15.18.03:022][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.03-15.18.03:023][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.03-15.18.03:182][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.03-15.18.03:477][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.03-15.18.03:589][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.03-15.18.03:775][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.03-15.18.03:989][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.03-15.18.04:198][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.03-15.18.04:388][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.03-15.18.04:388][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.03-15.18.06:611][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.03-15.18.06:752][  0]LogDerivedDataCache: Loaded boot cache 0.14s 90MB C:/Users/정민/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.03-15.18.06:752][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/정민/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.03-15.18.06:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.03-15.18.06:752][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.03-15.18.06:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.03-15.18.06:752][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.03-15.18.06:784][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.03-15.18.06:798][  0]LogDerivedDataCache: Using Local data cache path C:/Users/정민/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.03-15.18.06:820][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.03-15.18.06:820][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.03-15.18.06:821][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-15.18.06:822][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-15.18.07:683][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-15.18.07:817][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.03-15.18.08:306][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.03-15.18.08:497][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.03-15.18.08:698][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.03-15.18.08:698][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.03-15.18.08:698][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.03-15.18.10:202][  0]LogNetVersion: Speedy , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 418536735)
+[2017.10.03-15.18.10:348][  0]LogAssetRegistry: FAssetRegistry took 0.0309 seconds to start up
+[2017.10.03-15.18.10:536][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.078830 seconds
+[2017.10.03-15.18.10:564][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.03-15.18.10:564][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.03-15.18.10:564][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.03-15.18.10:879][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.03-15.18.18:885][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.03-15.18.19:016][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.03-15.18.21:077][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.03-15.18.22:638][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.10.03-15.18.22:773][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.10.03-15.18.23:042][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.10.03-15.18.23:267][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.10.03-15.18.26:031][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.03-15.18.27:963][  0]LogEngine: Initializing Engine...
+[2017.10.03-15.18.27:964][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.03-15.18.28:249][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.03-15.18.28:249][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.03-15.18.28:682][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.03-15.18.28:691][  0]LogInit: XAudio2 using '스피커(Conexant 20672 SmartAudio HD)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-15.18.28:719][  0]LogInit: FAudioDevice initialized.
+[2017.10.03-15.18.28:769][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/정민/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.03-15.18.28:788][  0]LogInit: Texture streaming: Enabled
+[2017.10.03-15.18.29:172][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.03-15.18.29:949][  0]LogInit: Transaction tracking system initialized
+[2017.10.03-15.18.31:071][  0]BlueprintLog: New page: 에디터 로드
+[2017.10.03-15.18.34:435][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.10.03-15.18.37:064][  0]LogConsoleResponse:Display: 
+[2017.10.03-15.18.37:398][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.03-15.18.37:399][  0]LogCook:Display: Mobile HDR setting 0
+[2017.10.03-15.18.37:504][  0]LogFileCache: Scanning file cache for directory 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Content/' took 0.02s
+[2017.10.03-15.18.40:868][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.10.03-15.18.40:868][  0]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.18.40:869][  0]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.18.41:006][  0]MapCheck: New page: 맵 체크
+[2017.10.03-15.18.41:006][  0]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.18.41:331][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.10.03-15.18.41:342][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-15.18.41:385][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.18.41:546][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 161.413ms.
+[2017.10.03-15.18.41:547][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.679
+[2017.10.03-15.18.41:758][  0]LogCollectionManager: Loaded 0 collections in 0.002410 seconds
+[2017.10.03-15.18.41:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Saved/Collections/' took 0.01s
+[2017.10.03-15.18.41:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Content/Developers/정민/Collections/' took 0.01s
+[2017.10.03-15.18.41:935][  0]LogFileCache: Scanning file cache for directory 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Content/Collections/' took 0.01s
+[2017.10.03-15.18.41:936][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.03-15.18.41:953][  0]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2329 classes and 491 folders.
+[2017.10.03-15.18.42:189][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.03-15.18.42:276][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.03-15.18.42:417][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.03-15.18.42:518][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.03-15.18.42:537][  0]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-15.18.42:545][  0]LogSlate: Took 0.005355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.10.03-15.18.42:546][  0]LogSlate: Took 0.000465 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.03-15.18.42:552][  0]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.03-15.18.42:732][  0]LogRenderer: Reallocating scene render targets to support 1004x456 NumSamples 1 (Frame:1).
+[2017.10.03-15.18.43:012][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.10.03-15.18.43:178][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.10.03-15.18.43:178][  0]LogLoad: (Engine Initialization) Total time: 52.86 seconds
+[2017.10.03-15.18.43:178][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.10.03-15.18.43:178][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.03-15.18.43:523][  0]LogOcInput: OculusInput pre-init called
+[2017.10.03-15.18.43:523][  0]LogHMD: Starting GearVRController plugin
+[2017.10.03-15.18.43:541][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.10.03-15.18.43:550][  0]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-15.18.43:864][  1]LogAssetRegistry: Asset discovery search completed in 33.5383 seconds
+[2017.10.03-15.18.43:866][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.03-15.18.43:866][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.10.03-15.21.00:465][308]LogSlate: Took 0.000557 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.03-15.21.11:051][711]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.10.03-15.21.11:770][742]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge)
+[2017.10.03-15.21.13:387][821]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (LeftEdge)
+[2017.10.03-15.21.16:491][974]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-15.21.16:644][974]LogSlate: Took 0.000677 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.03-15.21.16:896][974]LogRenderer: Reallocating scene render targets to support 1272x740 NumSamples 1 (Frame:1).
+[2017.10.03-15.22.16:901][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Ledge" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset" SILENT=true
+[2017.10.03-15.22.16:950][ 86]LogSavePackage: Save=12.13ms
+[2017.10.03-15.22.16:950][ 86]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/Ledge876997B447918C2062FCC5A0935CC8E0.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.16:952][ 86]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset', retrying in .5s...
+[2017.10.03-15.22.17:452][ 86]LogFileManager:Error: Error deleting file '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'.
+[2017.10.03-15.22.17:452][ 86]LogSavePackage:Error: Error saving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.17:455][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset
+[2017.10.03-15.22.20:642][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Ledge" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset" SILENT=true
+[2017.10.03-15.22.20:666][ 86]LogSavePackage: Save=3.73ms
+[2017.10.03-15.22.20:666][ 86]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/Ledge99A84F564A3385045A57AEB54E487C18.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.20:667][ 86]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset', retrying in .5s...
+[2017.10.03-15.22.21:167][ 86]LogFileManager:Error: Error deleting file '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'.
+[2017.10.03-15.22.21:167][ 86]LogSavePackage:Error: Error saving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.21:169][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset
+[2017.10.03-15.22.22:436][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Ledge" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset" SILENT=true
+[2017.10.03-15.22.22:463][ 86]LogSavePackage: Save=4.53ms
+[2017.10.03-15.22.22:463][ 86]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/LedgeB6CC9CDE49E08E293C5693A68476BF5E.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.22:465][ 86]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset', retrying in .5s...
+[2017.10.03-15.22.22:965][ 86]LogFileManager:Error: Error deleting file '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'.
+[2017.10.03-15.22.22:965][ 86]LogSavePackage:Error: Error saving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.22:966][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset
+[2017.10.03-15.22.28:388][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Ledge" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset" SILENT=true
+[2017.10.03-15.22.28:413][ 86]LogSavePackage: Save=5.08ms
+[2017.10.03-15.22.28:413][ 86]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/LedgeF6DC796C470A75014CCCD99B71B6C397.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.28:419][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset
+[2017.10.03-15.22.28:428][ 86]EditorErrors: New page: 출력 저장
+[2017.10.03-15.22.28:428][ 86]EditorErrors:Warning: 경고 '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset' 저장 오류입니다.
+[2017.10.03-15.22.28:428][ 86]EditorErrors:Warning: 경고 '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset' 저장 오류입니다.
+[2017.10.03-15.22.28:428][ 86]EditorErrors:Warning: 경고 '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset' 저장 오류입니다.
+[2017.10.03-15.22.33:283][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScroller/Sprites/Ledge" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset" SILENT=true
+[2017.10.03-15.22.33:309][174]LogSavePackage: Save=5.58ms
+[2017.10.03-15.22.33:309][174]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/Ledge81C6F95E42BFE2825C72E881AC4D1BE8.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset'
+[2017.10.03-15.22.33:313][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScroller/Sprites/Ledge.uasset
+[2017.10.03-15.22.43:584][501]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (RightEdge)
+[2017.10.03-15.22.51:762][821]LogEditorViewport: Clicking Background
+[2017.10.03-15.23.52:512][730]LogEditorViewport: Clicking Background
+[2017.10.03-15.23.54:397][799]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (LeftEdge)
+[2017.10.03-15.23.57:719][916]LogEditorViewport: Clicking Background
+[2017.10.03-15.24.03:114][ 94]LogSavePackage: Save=144.81ms
+[2017.10.03-15.24.03:114][ 94]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/2DSideScrollerExampleMap8E57238B4C5975D32D94D4B81E5E7E9C.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.10.03-15.24.03:122][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.10.03-15.24.03:197][ 94]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.461
+[2017.10.03-15.24.05:180][170]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.10.03-15.24.05:352][170]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.10.03-15.24.05:352][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-15.24.05:352][170]PIE: New page: PIE 세션: 2DSideScrollerExampleMap (2017. 10. 4. 오전 9:24:05)
+[2017.10.03-15.24.05:352][170]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.10.03-15.24.05:356][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003299s)
+[2017.10.03-15.24.05:357][170]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.10.03-15.24.05:357][170]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2017.10.03-15.24.05:357][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004797s)
+[2017.10.03-15.24.05:393][170]LogInit: XAudio2 using '스피커(Conexant 20672 SmartAudio HD)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-15.24.05:411][170]LogInit: FAudioDevice initialized.
+[2017.10.03-15.24.05:458][170]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.03-15.24.05:461][170]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 60) at 2017.10.04-00.24.05
+[2017.10.03-15.24.05:462][170]LogWorld: Bringing up level for play took: 0.002559
+[2017.10.03-15.24.05:628][170]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.03-15.24.05:628][170]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] player
+[2017.10.03-15.24.05:629][170]PIE: 정보 /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 에 대한 에디터에서 플레이 시작 시간: 0.59
+[2017.10.03-15.24.05:629][170]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.10.03-15.24.12:620][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.10.03-15.24.12:673][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.10.03-15.24.13:911][544]LogEditorViewport: Clicking on Actor (LMB): PaperGroupedSpriteActor (PaperGroupedSpriteActor)
+[2017.10.03-15.24.24:466][866]LogEditorViewport: Clicking Background
+[2017.10.03-15.24.27:108][945]LogSavePackage: Save=143.44ms
+[2017.10.03-15.24.27:108][945]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/2DSideScrollerExampleMap2B3B4445490EC58F186AB5B42E11ADB5.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.10.03-15.24.27:121][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2017.10.03-15.24.27:173][945]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.422
+[2017.10.03-15.24.29:893][999]LogSlate: Took 0.000492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-15.24.30:251][999]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 112 classes and 0 folders.
+[2017.10.03-15.24.31:531][999]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-15.25.40:592][944]BlueprintLog: New page: MainMenu 컴파일
+[2017.10.03-15.25.40:927][944]BlueprintEditorCompileResults: 정보 빠른 템플릿 생성에 성공했습니다.
+[2017.10.03-15.25.42:474][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset" SILENT=true
+[2017.10.03-15.25.42:554][960]LogSavePackage: Save=47.20ms
+[2017.10.03-15.25.42:554][960]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/MainMenu9C22FB90465B94464EE3FA97A2982BF0.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset'
+[2017.10.03-15.25.42:566][960]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset
+[2017.10.03-15.29.46:143][639]BlueprintLog: New page: MainMenu 컴파일
+[2017.10.03-15.29.46:458][639]BlueprintEditorCompileResults: 정보 빠른 템플릿 생성에 성공했습니다.
+[2017.10.03-15.31.39:401][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset" SILENT=true
+[2017.10.03-15.31.39:527][861]LogSavePackage: Save=68.08ms
+[2017.10.03-15.31.39:527][861]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/MainMenu163AFB394000175FEA3708A2F23A630B.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset'
+[2017.10.03-15.31.39:562][861]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset
+[2017.10.03-15.31.39:581][861]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.31.39:581][861]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.31.39:585][861]LoadErrors: New page: 맵 로드중: 2DSideScrollerExampleMap.umap
+[2017.10.03-15.31.39:591][861]MapCheck: New page: 맵 체크
+[2017.10.03-15.31.39:591][861]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.31.39:708][861]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.10.03-15.31.39:716][861]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-15.31.39:900][861]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.31.40:120][861]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 219.362ms.
+[2017.10.03-15.31.40:121][861]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.550
+[2017.10.03-15.32.58:036][773]BlueprintLog: New page: MainMenu 컴파일
+[2017.10.03-15.32.58:370][773]BlueprintEditorCompileResults: 정보 빠른 템플릿 생성에 성공했습니다.
+[2017.10.03-15.32.59:062][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset" SILENT=true
+[2017.10.03-15.32.59:137][779]LogSavePackage: Save=47.23ms
+[2017.10.03-15.32.59:137][779]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/MainMenuDB2CC1304E3B5C7C49681B8CF43EDEFD.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset'
+[2017.10.03-15.32.59:145][779]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset
+[2017.10.03-15.33.11:230][953]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.03-15.33.40:000][444]LogAIModule: Creating AISystem for world Main
+[2017.10.03-15.33.40:119][444]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.33.40:119][444]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.33.40:122][444]LoadErrors: New page: 맵 로드중: Main.umap
+[2017.10.03-15.33.40:124][444]MapCheck: New page: 맵 체크
+[2017.10.03-15.33.40:124][444]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.33.40:433][444]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.10.03-15.33.40:592][444]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.33.40:818][444]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 225.049ms.
+[2017.10.03-15.33.40:821][444]LogFileHelpers: Loading map 'Main' took 0.705
+[2017.10.03-15.33.47:622][555]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.33.47:625][555]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.33.47:629][555]LoadErrors: New page: 맵 로드중: Main.umap
+[2017.10.03-15.33.47:630][555]MapCheck: New page: 맵 체크
+[2017.10.03-15.33.47:630][555]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.33.47:716][555]LogAIModule: Creating AISystem for world Main
+[2017.10.03-15.33.47:871][555]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-15.33.48:008][555]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.33.48:233][555]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 225.024ms.
+[2017.10.03-15.33.48:235][555]LogFileHelpers: Loading map 'Main' took 0.616
+[2017.10.03-15.33.56:738][662]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.10.03-15.33.56:830][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-15.33.56:831][662]PIE: New page: PIE 세션: Main (2017. 10. 4. 오전 9:33:56)
+[2017.10.03-15.33.56:831][662]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2017.10.03-15.33.56:835][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004194s)
+[2017.10.03-15.33.56:838][662]LogAIModule: Creating AISystem for world Main
+[2017.10.03-15.33.56:840][662]LogPlayLevel: PIE: World Init took: (0.004573s)
+[2017.10.03-15.33.56:840][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.009510s)
+[2017.10.03-15.33.56:928][662]LogInit: XAudio2 using '스피커(Conexant 20672 SmartAudio HD)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.03-15.33.56:947][662]LogInit: FAudioDevice initialized.
+[2017.10.03-15.33.56:999][662]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.03-15.33.57:001][662]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.10.04-00.33.57
+[2017.10.03-15.33.57:001][662]LogWorld: Bringing up level for play took: 0.001441
+[2017.10.03-15.33.57:008][662]LogBlueprintUserMessages: [2DSideScrollerCharacter_C_0] player
+[2017.10.03-15.33.57:009][662]PIE: 정보 /Game/UEDPIE_0_Main 에 대한 에디터에서 플레이 시작 시간: -0.03
+[2017.10.03-15.34.32:621][189]LogUObjectGlobals:Warning: 'Class 없음.None' 오브젝트를 찾는 데 실패했습니다.
+[2017.10.03-15.34.51:261][631]LogAIModule: Creating AISystem for world main
+[2017.10.03-15.34.53:255][631]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/Blueprints/main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.34.53:260][631]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.34.53:266][631]LoadErrors: New page: 맵 로드중: main.umap
+[2017.10.03-15.34.53:267][631]MapCheck: New page: 맵 체크
+[2017.10.03-15.34.53:267][631]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.34.53:609][631]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-15.34.53:764][631]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.34.54:028][631]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 263.068ms.
+[2017.10.03-15.34.54:037][631]LogFileHelpers: Loading map 'main' took 0.790
+[2017.10.03-15.35.00:373][737]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.10.03-15.35.00:471][737]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.35.00:471][737]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.35.00:473][737]LoadErrors: New page: 맵 로드중: 2DSideScrollerExampleMap.umap
+[2017.10.03-15.35.00:473][737]MapCheck: New page: 맵 체크
+[2017.10.03-15.35.00:473][737]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.35.00:714][737]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-15.35.00:845][737]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.35.01:074][737]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 228.257ms.
+[2017.10.03-15.35.01:076][737]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.608
+[2017.10.03-15.36.15:284][258]LogAIModule: Creating AISystem for world Main
+[2017.10.03-15.36.15:331][258]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.36.15:331][258]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.36.15:333][258]LoadErrors: New page: 맵 로드중: Main.umap
+[2017.10.03-15.36.15:333][258]MapCheck: New page: 맵 체크
+[2017.10.03-15.36.15:333][258]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.36.15:542][258]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-15.36.15:627][258]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.36.15:802][258]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 174.289ms.
+[2017.10.03-15.36.15:803][258]LogFileHelpers: Loading map 'Main' took 0.473
+[2017.10.03-15.39.53:802][523]BlueprintLog: New page: MainMenu 컴파일
+[2017.10.03-15.39.54:028][523]BlueprintEditorCompileResults: 정보 빠른 템플릿 생성에 성공했습니다.
+[2017.10.03-15.39.54:763][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset" SILENT=true
+[2017.10.03-15.39.54:862][547]LogSavePackage: Save=60.56ms
+[2017.10.03-15.39.54:862][547]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/MainMenuC4DC5BB14C4863920E683F8BE33A7AAE.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset'
+[2017.10.03-15.39.54:872][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/MainMenu.uasset
+[2017.10.03-15.41.22:114][314]BlueprintLog: New page: 2DSideScrollerCharacter 컴파일
+[2017.10.03-15.41.23:286][327]LogSavePackage: Save=199.89ms
+[2017.10.03-15.41.23:286][327]LogSavePackage: Moving '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Saved/2DSideScrollerCharacterF432C97B45AB807026893FAA36137B63.tmp' to '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2017.10.03-15.41.23:297][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2017.10.03-15.41.31:301][603]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.10.03-15.41.31:366][603]Cmd: MAP LOAD FILE="../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-15.41.31:366][603]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.41.31:368][603]LoadErrors: New page: 맵 로드중: 2DSideScrollerExampleMap.umap
+[2017.10.03-15.41.31:369][603]MapCheck: New page: 맵 체크
+[2017.10.03-15.41.31:369][603]LightingResults: New page: 라이팅 빌드
+[2017.10.03-15.41.31:575][603]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-15.41.31:672][603]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-15.41.31:866][603]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 193.925ms.
+[2017.10.03-15.41.31:867][603]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.503
+[2017.10.03-15.41.36:798][758]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.10.03-15.41.37:134][759]Cmd: QUIT_EDITOR
+[2017.10.03-15.41.37:187][759]LogExit: Preparing to exit.
+[2017.10.03-15.41.38:042][759]LogDirectoryWatcher: A directory notification for 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Content/' was aborted.
+[2017.10.03-15.41.38:092][759]LogExit: Editor shut down
+[2017.10.03-15.41.38:105][759]LogExit: Transaction tracking system shut down
+[2017.10.03-15.41.38:252][759]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.03-15.41.38:253][759]LogExit: Object subsystem successfully closed.
+[2017.10.03-15.41.38:277][759]LogD3D11RHI: Shutdown
+[2017.10.03-15.41.38:277][759]LogD3D11RHI: CleanupD3DDevice
+[2017.10.03-15.41.38:399][759]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.03-15.41.38:613][759]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2017.10.03-15.41.38:614][759]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.10.03-15.41.38:614][759]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.10.03-15.41.38:614][759]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.10.03-15.41.38:614][759]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.10.03-15.41.38:614][759]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.10.03-15.41.38:614][759]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.03-15.41.38:614][759]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.10.03-15.41.38:614][759]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.03-15.41.38:616][759]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.10.03-15.41.38:616][759]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.10.03-15.41.38:616][759]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.10.03-15.41.38:616][759]LogDirectoryWatcher: A directory notification for 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Content/Collections/' was aborted.
+[2017.10.03-15.41.38:616][759]LogDirectoryWatcher: A directory notification for 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Content/Developers/정민/Collections/' was aborted.
+[2017.10.03-15.41.38:616][759]LogDirectoryWatcher: A directory notification for 'C:/Users/정민/Documents/GitHub/speedy/Speedy/Saved/Collections/' was aborted.
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.10.03-15.41.38:617][759]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.10.03-15.41.38:618][759]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.10.03-15.41.38:619][759]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.10.03-15.41.38:622][759]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.10.03-15.41.38:622][759]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.10.03-15.41.38:622][759]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.10.03-15.41.38:622][759]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.10.03-15.41.38:622][759]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.10.03-15.41.38:622][759]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.10.03-15.41.38:622][759]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.10.03-15.41.38:623][759]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.10.03-15.41.38:623][759]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.10.03-15.41.38:623][759]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.10.03-15.41.38:623][759]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.10.03-15.41.38:623][759]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.10.03-15.41.38:623][759]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.10.03-15.41.39:070][759]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.10.03-15.41.39:070][759]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.10.03-15.41.39:070][759]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.10.03-15.41.39:070][759]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.10.03-15.41.39:070][759]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.10.03-15.41.39:070][759]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.10.03-15.41.39:071][759]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.10.03-15.41.39:124][759]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.10.03-15.41.39:124][759]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.10.03-15.41.39:124][759]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.10.03-15.41.39:124][759]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.10.03-15.41.39:124][759]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.10.03-15.41.39:124][759]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.10.03-15.41.39:125][759]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.10.03-15.41.39:125][759]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.10.03-15.41.39:125][759]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.10.03-15.41.39:125][759]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.10.03-15.41.39:163][759]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.10.03-15.41.39:165][759]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.10.03-15.41.39:165][759]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.10.03-15.41.39:165][759]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.10.03-15.41.39:166][759]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.03-15.41.39:294][759]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.03-15.41.39:295][759]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.03-15.41.39:295][759]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.03-15.41.39:295][759]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.03-15.41.39:295][759]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.03-15.41.39:295][759]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.03-15.41.39:296][759]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.03-15.41.39:296][759]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.03-15.41.39:296][759]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.03-15.41.39:298][759]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.03-15.41.39:298][759]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.03-15.41.39:298][759]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.03-15.41.39:298][759]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.03-15.41.39:298][759]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.03-15.41.39:298][759]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.03-15.41.39:398][759]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.03-15.41.39:499][759]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.03-15.41.39:499][759]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.03-15.41.39:499][759]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.03-15.41.39:499][759]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.03-15.41.39:499][759]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.03-15.41.39:499][759]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.03-15.41.40:764][759]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.03-15.41.40:764][759]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.03-15.41.40:764][759]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.03-15.41.40:764][759]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.03-15.41.40:771][759]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.03-15.41.40:771][759]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.03-15.41.40:771][759]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.03-15.41.40:771][759]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.03-15.41.40:771][759]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.03-15.41.40:772][759]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.03-15.41.40:781][759]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.03-15.41.40:781][759]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.03-15.41.40:781][759]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.03-15.41.40:781][759]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.03-15.41.40:782][759]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.03-15.41.40:782][759]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.03-15.41.41:024][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.03-15.41.41:024][759]LogDirectoryWatcher: A directory notification for '../../../../../../Users/정민/Documents/GitHub/speedy/Speedy/Content/' was aborted.
+[2017.10.03-15.41.41:024][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.03-15.41.41:024][759]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.03-15.41.41:034][759]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.03-15.41.41:041][759]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.03-15.41.41:069][759]LogDerivedDataCache: Shutdown
+[2017.10.03-15.41.41:069][759]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.03-15.41.41:069][759]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.03-15.41.41:069][759]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.03-15.41.41:070][759]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.03-15.41.41:070][759]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.03-15.41.41:070][759]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.03-15.41.41:070][759]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B28E3E78F-4F70-24F1-7D6D-6DA8B050047D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=089b014d460af958650594a557e0de25%7C3713465ee2194eb6a1ad9798978b117a%7C0b409157-fe8c-49ed-91b6-c90b76a256c2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.03-15.41.41:094][759]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.03-15.41.41:096][759]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.03-15.41.41:096][759]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.03-15.41.41:096][759]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.03-15.41.41:097][759]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.03-15.41.41:097][759]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.03-15.41.41:097][759]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.03-15.41.41:097][759]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.03-15.41.41:097][759]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.03-15.41.41:120][759]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.03-15.41.41:121][759]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.03-15.41.41:123][759]LogExit: Exiting.
+[2017.10.03-15.41.41:147][759]Log file closed, 10/04/17 00:41:41
